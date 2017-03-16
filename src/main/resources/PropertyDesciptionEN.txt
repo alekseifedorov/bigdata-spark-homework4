@@ -1,0 +1,191 @@
+1) Age: NUMERIC
+
+2) Is employed: CATEGORICAL
+	0: employed
+	1: not employed
+
+3) Is retired: CATEGORICAL
+	0: not retired
+	1: retired
+
+4) Sex: CATEGORICAL
+	0: female
+	1: male
+
+5) Number of children: NUMERIC
+
+6) Number of dependent people: NUMERIC
+
+7) Education: CATEGORICAL
+	0: Specialized Secondary
+	1: Secondary
+	2: incomplete secondary
+	3: Higher
+	4: Incomplete Higher
+	5: Two or more higher
+	6: Academic degree
+
+8) Marital status: CATEGORICAL
+	0: married
+	1: civil marriage
+	2: divorced
+	3: never was married
+	4: widower
+
+9) Branch of employment: CATEGORICAL
+	0: Commerce
+	1: Information Technology
+	2: Education
+	3: Civil Service
+	4: Other areas
+	5: Agriculture
+	6: Health care
+	7: Metallurgy/Industry/Mechanical engineering
+	8: Utilities/Road services
+	9: Building
+	10: Transport
+	11: Banking/Finances
+	12: Restaurants/Catering
+	13: Insurance
+	14: Oil and Gas Industry
+	15: Mass media/Advertisement/PR agency
+	16: Energetics
+	17: health and beauty salons
+	18: Detective activity
+	19: Entertainment/Art
+	20: Science
+	21: Chemicals/Perfume/Pharmaceuticals
+	22: Assembly production
+	23: Tourism
+	24: Legal/Notary Services
+	25: Marketing
+	26: Personnel
+	27: Information services
+	28: Property
+	29: Management Company
+	30: Logistics
+
+10) Position : CATEGORICAL
+	0: Worker
+	1: Specialist
+	2: Middle management
+	3: Senior Manager
+	4: Employee
+	5: Service worker
+	6: highly qualified specialist
+	7: Individual businessman
+	8: Contract soldier
+	9: Supervisor
+	10: Other
+	11: Partner
+
+11) Company ownership: CATEGORICAL
+	0: Private
+	1: Individual businessman
+	2: State company/institute
+	3: Non-profit organization
+	4: Private company with foreigh capital
+
+12) Relationship to foreign capital: CATEGORICAL
+	0: Not involved
+	1: Involved
+
+13) Direction of activity inside the company : CATEGORICAL
+	0: Support technicians
+	1: Participation in the main activities
+	2: Households and transport services
+	3: Telecommunications
+	4: Security Service
+	5: Accounting, finance, planning
+	6: Purchasing and Sales
+	7: Human Resources
+	8: Legal Services
+	9: Advertising and Marketing
+
+14) Family income: CATEGORICAL
+	1: < 5000 USD
+	2: from 5000 till 10000 USD
+	3: from 10000 till 20000 USD
+	4: from 20000 till 50000 USD
+	5: > 50000 USD
+
+15) Personal income: NUMERIC
+
+16) City of registration: CATEGORICAL
+	the city is encoded with some ID
+	
+17) City of living: CATEGORICAL
+	the city is encoded with some ID
+
+18) The postal address of the city: CATEGORICAL
+	the city is encoded with some ID
+	
+19) City of the branch where the loan was taken: CATEGORICAL
+	the city is encoded with some ID
+	
+20) State: CATEGORICAL
+	the state is encoded with some ID
+	
+21) Registered address and address of the actual stay match: NUMERIC
+
+22) Address of actual residence and mailing address match: NUMERIC
+
+23) Registered address and postal address match: NUMERIC
+
+24) Postal actual address register match: NUMERIC
+	
+25) Registration area , the actual residence , mailing address and location of the area of the outlet , where the match took a loan: NUMERIC
+	
+26) Owner of apartment: NUMERIC
+	
+27) Number of cars owned: NUMERIC
+	
+28) Does he/she owns a car produced domestically: NUMERIC
+	
+29) Does he/she owns a house outside a city: NUMERIC
+	
+30) Does he/she owns a cottage: NUMERIC
+	
+31) Does he/she owns a garage: NUMERIC
+	
+32) Does he/she owns a land: NUMERIC
+	
+33) The amount of the last loan: NUMERIC
+	
+34) Term of a loan: NUMERIC
+	
+35) Down payment: NUMERIC
+	
+36) Is a driver's license indicated in the questionnaire: NUMERIC
+	
+37) Is State Pension Fund indivated in the questionnaries: NUMERIC
+	
+38) Number of month living at the address of fact residence: NUMERIC
+
+39) Duration of work at the current working place (in month): NUMERIC
+
+40) Is there a stationary phone at the residence address: NUMERIC
+
+41) Is there a stationary phone at the registration address: NUMERIC
+
+42) Is there a work phone: NUMERIC
+	
+43) Number of loans: NUMERIC
+	
+44) Number of closed loans: NUMERIC
+	
+45) The number of payments made by the client: NUMERIC
+	
+46) The number of payment delays committed by the client: NUMERIC
+	
+47) The maximum order number of the delay commited by the client: NUMERIC
+
+48) Average amount of the delayed payment, USD:  NUMERIC	
+
+49) Maximum amount of the delayed payment, USD:  NUMERIC		
+
+50) The number of utilized cards: NUMERIC
+
+51) Target variable: CATEGORICAL
+	0: there were no response
+	1: there was a response
